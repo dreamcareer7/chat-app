@@ -12,4 +12,11 @@ class ApplicationController < ActionController::Base
     # !! makes it a boolean return - ie. if current_user is there, true, if not, false
     !!current_user
   end
+
+  def require_user
+    if !logged_in?
+      flash[:notice] = "You must be logged in to access this page"
+      redirect_to login_path
+    end
+  end
 end
