@@ -3,7 +3,14 @@
   Say something. Now.
 </h4>
 
-<%= render 'chatroom/feed' %>
+<div class="ui two column grid">
+  <div class="twelve wide column">
+    <%= render 'chatroom/feed' %>
+  </div>
+  
+  <div class="four wide column">
+    <%= render 'chatroom/rightbar' %>
+  </div>
+</div>
 
-<%= render 'chatroom/rightbar' %>
 
