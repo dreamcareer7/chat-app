@@ -6,4 +6,6 @@ Rails.application.routes.draw do
   post 'message', to: 'messages#create'
   resources :users
   resources :messages
+
+  mount ActionCable.server, at: '/cable'
 end
