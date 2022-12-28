@@ -22,13 +22,14 @@ scroll_bottom = function () {
   }
 };
 
-// submit message by hitting enter
+// submit message by hitting enter and clear text from input
 // get input id of #message_body from inspect element
 // keycode 13 means the enter key
 submit_message = function () {
   $("#message_body").on("keydown", function (e) {
     if (e.keyCode === 13) {
       $("button").click();
+      e.target.value = "";
     }
   });
 };
