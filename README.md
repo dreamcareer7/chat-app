@@ -2,6 +2,12 @@
 
 A realtime chat app using Ruby on Rails 5 and Semantic-UI for styling. Users can sign up, log in and chat away to their heart's content via the Action Cable WebSocket framework built into Rails.
 
+## Video Demo
+
+https://user-images.githubusercontent.com/97295867/210632939-8cce415f-04b1-4efd-9157-ce11b3cd0408.mp4
+
+## Screenshots
+
 Main chat screen:
 
 <img width="1512" alt="Screenshot 2022-12-28 at 09 50 45" src="https://user-images.githubusercontent.com/97295867/209793359-b9d8acd6-47e1-4b04-bfa7-69ed291c409c.png">
